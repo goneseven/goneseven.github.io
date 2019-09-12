@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head><title>Bing Search</title>
+<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script type="text/javascript">
+  let count = 0;
+  let maxcount = 60;
+  let terms = []
+  $(document).ready(function(){
+    $.ajax({ url: "verbs.html", 
+             success: function(response){
+               console.log(response)
+               let dynamicterms = response.split(',')
+               console.log(dynamicterms)
+               terms = terms.concat(dynamicterms)
+               console.log(terms)
+             }
+    });
+    terms.push("Today News")
+    terms.push("Today Sports News")
+    terms.push("Today Business News")
+    console.log(terms)
+  });
+
+  function load() {
+    if(count == maxcount) return;
+    setTimeout(stopTimer, 3000);
+  }
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+    
+  function stopTimer(){
+    var index = getRandomInt(terms.length);
+    var source = 'https://www.bing.com/search?q=' + terms[index];
+    terms.splice(index, 1);
+    console.log(source);
+    console.log(terms);
+    document.getElementById('mainframe').src = source;
+    count = count + 1;
+  }
+</script>
+</head>
+<body><p align='center'>
+<iframe id='mainframe' src='https://www.bing.com' onLoad='load();' style='position:fixed; top:10; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'/>
+</p></body>
+</html>
