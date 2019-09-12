@@ -1,0 +1,51 @@
+<html><head><title>Bing Search</title>
+<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script type="text/javascript">
+    var count = 0;
+    var maxcount = 60;
+    var terms_ = ["and", "hope", "youd", "used", "these", "responses", "appropriately", "and", "not", "smiled", "and", "nodded", "when", "you", "were", "being", "told", "something", "like", "they", "suspected", "their", "partner", "was", "having", "an", "affair", "or", "even", "worse", "that", "they", "had", "developed", "a", "mystery", "rash", "down", "below", "It", "was", "also", "one", "of", "those", "nights", "when", "you", "had", "to", "fight", "to", "get", "to", "the", "bar", "and", "where", "all", "social", "norms", "and", "etiquette", "went", "out", "of", "the", "window", "Getting", "served", "was", "always", "easier", "for", "those", "good", "looking", "and", "confident", "people", "By", "nowwas", "feeling", "inebriated", "and", "had", "been", "approaching", "happy", "drunk", "butcould", "sense", "my", "mood", "turning", "sour", "asseemed", "to", "grow", "invisible", "getting", "pushed", "further", "away", "from", "the", "bar", "staffwas", "just", "thinking", "it", "was", "more", "akin", "to", "a", "rugby", "scrum", "when", "bang", "on", "cue", "a", "prop", "forward", "of", "a", "man", "forced", "his", "way", "past", "me", "and", "was", "getting", "served", "beforehad", "a", "chance", "to", "work", "out", "whetherwas", "angry", "enough", "or", "drunk", "enough", "to", "stand", "up", "for", "myselfdecided", "enough", "was", "enough", "and", "muscled", "my", "way", "past", "the", "obstacles", "to", "tackle", "the", "prop", "Excuse", "me", "mate", "Theres", "a", "queue", "you", "know", "The", "bull", "turned", "around", "with", "a", "big", "smile", "on", "his", "face", "that", "instantly", "transported", "me", "back", "in", "time", "Hope", "you", "dont", "mind", "big", "T", "butthought", "you", "might", "need", "some", "help", "getting", "served", "You", "appeared", "to", "be", "taking", "your", "time", "andthink", "your", "friends", "are", "getting", "a", "bit", "thirsty", "We", "both", "looked", "back", "to", "my", "colleagues", "who", "were", "looking", "back", "at", "us", "miming", "a", "gasping", "action", "The", "round", "along", "with", "bonus", "sambucas", "is", "on", "its", "way", "back", "to", "them", "courtesy", "of", "Lucy", "and", "of", "course", "my", "good", "self", "Satisfaction", "massaged", "his", "face", "as", "he", "watched", "Lucy", "the", "barmaid", "deliver", "the", "bounty", "before", "turning", "back", "to", "me", "So", "how", "are", "you", "T-bonehad", "recognised", "Bobby", "straight", "away", "even", "though", "it", "had", "been", "more", "than", "ten", "years", "since", "we", "had", "last", "seen", "each", "other", "Bobby", "was", "ever", "so", "slightly", "taller", "than", "me", "and", "ever", "so", "wider", "He", "had", "dark", "spiky", "hair", "on", "top", "of", "the", "friendliest", "of", "faces", "and", "was", "wearing", "a", "navy", "pinstriped", "suit", "with", "braces", "gallantly", "holding", "up", "his", "trousers", "Ifhadnt", "recognised", "him", "from", "his", "appearancewould", "have", "remembered", "him", "by", "his", "propensity", "to", "take", "my", "initial", "and", "mould", "it", "into", "various", "different", "nicknames", "which", "to", "him", "alone", "were", "hilarious"];
+    var terms = [];
+    
+    $(document).ready(function(){
+        var cors = 'http://www.whateverorigin.org/get?url=';
+        var feeds = ['https://trends.google.com/trends/trendingsearches/daily/rss?geo=US',
+                 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=GB',
+                 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=IN',
+                 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE'];
+        $(feeds).each(function(_, feed) {
+            console.log(feed);
+            $.getJSON(cors + encodeURIComponent(feed) + '&callback=?', function(data) {
+                $(data.contents).find('item').each(function() {
+                    var term = ($(this)).find('title').text();
+                    terms.push(term);
+                });
+            });
+        });
+        console.log(terms);
+    });
+    
+    function load() {
+        if(count == maxcount) return;
+        setTimeout(stopTimer, 3000);
+    }
+    
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+    
+    function stopTimer(){
+        var index = getRandomInt(terms.length);
+        var source = 'https://www.bing.com/search?q=' + terms[index];
+        terms.splice(index, 1);
+        console.log(source);
+        console.log(terms);
+        document.getElementById('mainframe').src = source;
+        count = count + 1;
+    }
+</script>
+</head>
+
+<body><p align='center'>
+<iframe id='mainframe' src='http://www.bing.com' onLoad='load();' style='position:fixed; top:10; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'/>
+</p></body>
+</html>
