@@ -2,3 +2,4 @@ language: python
 rvm:
  - 3.6.7
 script: python verbs_generator.py
+github_token: 69c94225ee97ea458a2dad8aa3d0ade1f0c72a06 
