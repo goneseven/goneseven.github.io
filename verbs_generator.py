@@ -18,6 +18,10 @@ def build_verbs():
         
     with open('verbs.html', 'a') as f:
         f.write(",".join(list)+',')
+        
+    with open('verbs.html','r') as f:
+        cos = f.read()
+        print('file:: ' + cos)
 
 if __name__ == '__main__':
     build_verbs()
