@@ -4,3 +4,4 @@ rvm:
 script: python verbs_generator.py
 github_token: $GITHUB_TOKEN 
 skip_cleanup: true
+keep_history: true
