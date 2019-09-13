@@ -1,4 +1,4 @@
 language: python
 rvm:
  - 3.6.7
-script: verbs_generator.py
+script: ls -lart
