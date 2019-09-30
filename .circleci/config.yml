@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.4
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "52:c7:98:aa:23:80:b6:5c:ca:b0:e5:86:86:01:ee:29"
+      - checkout
+      - run: python verbs_generator.py
+      - run: date
+      - run: git config user.name "GOneSeven"
+      - run: git config user.email "GOneSeven"
+      - run: git add .
+      - run: git commit -am "Update Verbs - Circle CI [skip ci]"
+      - run: git push
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - build
+  nightly:
+    triggers:
+      - schedule:
+          cron: "00 00,06,12,18 * * *"
+          filters:
+            branches:
+              only: 
+                - master
+    jobs:
+      - build

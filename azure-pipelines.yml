@@ -1,0 +1,36 @@
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.7'
+
+- checkout: self
+  persistCredentials: true
+  clean: true
+
+- script: |
+    sleep 120
+    echo "===GIT CHECKOUT MASTER==="
+    git checkout -b master
+    echo "==GIT SET UPSTREAM==="
+    git branch --set-upstream-to=origin/master master
+    echo "===GIT PULL==="
+    git pull    
+    echo "===VERBS_GENERATOR.PY==="
+    python verbs_generator.py
+    echo "===GIT CONFIG USER==="
+    git config user.name "GOneSeven"
+    echo "===GIT CONFIG EMAIL==="
+    git config user.email "GOneSeven"
+    echo "===GIT COMMIT==="
+    git commit -am "Update Verbs - Azure Pipelines [skip ci]"
+    echo "===GIT PUSH==="
+    git push origin master
+  displayName: 'Build and Deploy'
