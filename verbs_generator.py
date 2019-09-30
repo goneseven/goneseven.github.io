@@ -6,7 +6,10 @@ def build_verbs():
     sources = ['https://trends.google.com/trends/trendingsearches/daily/rss?geo=US',
         'https://trends.google.com/trends/trendingsearches/daily/rss?geo=GB',
         'https://trends.google.com/trends/trendingsearches/daily/rss?geo=IN',
-        'https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE']
+        'https://trends.google.com/trends/trendingsearches/daily/rss?geo=DE',
+        'https://trends.google.com/trends/trendingsearches/daily/rss?geo=FR',
+        'https://trends.google.com/trends/trendingsearches/daily/rss?geo=CA',
+        'https://trends.google.com/trends/trendingsearches/daily/rss?geo=MY']
 
     for src in sources:
         contents = urllib.request.urlopen(src).read()
@@ -16,7 +19,7 @@ def build_verbs():
 
     print(len(list), list)
         
-    with open('verbs.html', 'a') as f:
+    with open('verbs.html', 'w') as f:
         f.write(",".join(list)+',')
         
     with open('verbs.html','r') as f:

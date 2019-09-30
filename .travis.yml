@@ -14,3 +14,9 @@ deploy:
   verbose: true
   on:
     tags: false
+notifications:
+  email:
+    recipients:
+      - g17@gmx.com
+    on_success: always
+    on_failure: always
