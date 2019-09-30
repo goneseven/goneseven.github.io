@@ -7,3 +7,6 @@ file: verbs.html
 github_token: $GITHUB_TOKEN 
 skip_cleanup: true
 keep_history: true
+deploy:
+  - provider: releases
+    edge: true
