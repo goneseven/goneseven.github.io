@@ -7,5 +7,6 @@ deploy:
   token: $GITHUB_TOKEN
   file: verbs.html
   edge: true
+  overwrite: true
   on:
     tags: false
