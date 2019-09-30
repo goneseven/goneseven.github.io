@@ -2,6 +2,8 @@ language: python
 rvm:
  - 3.6.7
 script: python verbs_generator.py
+provider: releases
+file: verbs.html
 github_token: $GITHUB_TOKEN 
 skip_cleanup: true
 keep_history: true
