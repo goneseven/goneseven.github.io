@@ -8,4 +8,4 @@ deploy:
   file: verbs.html
   edge: true
   on:
-    tags: true
+    tags: false
