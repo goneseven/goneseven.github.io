@@ -2,8 +2,8 @@ version: 2
 jobs:
     build:
         docker:
-            - image: circleci/ruby:2.4.1
+            - image: circleci/python:3.6.4
         steps:
             - checkout
             - run: echo "A first hello"
-            - run: python3 verbs_generator.py
+            - run: python verbs_generator.py
