@@ -7,3 +7,4 @@ jobs:
             - checkout
             - run: echo "A first hello"
             - run: python verbs_generator.py
+            - run: git --version
