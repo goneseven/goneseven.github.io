@@ -24,7 +24,7 @@ def build_stack():
     
     stack = "\n".join(list);
     print(f'Stack String:: {stack}')
-    with open('stack.txt', 'w', encoding="utf-8") as f:
+    with open('stack.txt', 'a', encoding="utf-8") as f:
         print('Writing stack to stack.txt')
         f.write(stack)
         
