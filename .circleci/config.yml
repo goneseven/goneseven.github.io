@@ -10,10 +10,12 @@ jobs:
       - checkout
       - run: python verbs_generator.py
       - run: date
+      - run: python stack_generator.py
+      - run: date
       - run: git config user.name "GOneSeven"
       - run: git config user.email "GOneSeven"
       - run: git add .
-      - run: git commit -am "Update Verbs - Circle CI [skip ci]"
+      - run: git commit -am "Update Verbs/Stack - Circle CI [skip ci]"
       - run: git push
 workflows:
   version: 2
