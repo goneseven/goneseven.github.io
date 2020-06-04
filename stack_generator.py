@@ -3,7 +3,10 @@ import xml.etree.ElementTree as ET
 import datetime
 
 def build_stack():
-    list = []
+    contents = None
+    with open('stack.txt','r') as f:
+        contents = f.readlines()
+    stack = [x.strip() for x in contents] 
     
     sources = [
         'https://stackoverflow.com/feeds/tag/.net',
@@ -18,15 +21,16 @@ def build_stack():
         root = ET.ElementTree(ET.fromstring(contents)).getroot()
         ns = {"ns":"http://www.w3.org/2005/Atom"}
         for tag in root.findall('ns:entry/ns:title', ns):
-            list.append(tag.text)
+            stack.append(tag.text)
 
-    print(list)
+    stack = list(dict.fromkeys(stack))
+    print(f'Final Stack:: {stack}')
     
-    stack = "\n".join(list);
-    print(f'Stack String:: {stack}')
-    with open('stack.txt', 'a', encoding="utf-8") as f:
+    contents = "\n".join(stack);
+    print(f'Stack String:: {contents}')
+    with open('stack.txt', 'w', encoding="utf-8") as f:
         print('Writing stack to stack.txt')
-        f.write(stack)
+        f.write(contents)
         
     with open('stack.txt','r') as f:
         cos = f.read()
