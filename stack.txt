@@ -1,150 +1,198 @@
-How to stop visual studio from automatically adding remove in an item group in my csproj?
-Is .Net and as .Net Core the same framework but with different names?
-Microsoft .net Data Access Layer different ways [closed]
-How to draw rectangle on JPG in C# for WPF
-Using the MongoDB .Net Driver to both Group Data and bring back other Document Data
-Is there a Subject implementation in Rx.NET that functionally resembles BehaviorSubject but emits only if the value has changed?
-Function returns only the first value of the input variable
-Does an appcrash with a STATUS_STACK_OVERFLOW in a .Net application mean the stack overflow occured in native code?
-creating new .NET project with visual studio [closed]
-Error : Unable to resolve dependencies. 'entityframework 6.4.4' is not compatible with 'EntityFramework 6.2.0' constraint EntityFramework(= 6.2.0)
-Wikipedia user agent problem when downloading images
-How to truncate milliseconds off of a .NET DateTime
-Distributed tracing with Elastic APM on .NET Core, non-HTTP
-How exactly does the "Specific Version" property of an assembly reference work in Visual Studio?
-Missing Test Project Type in VS 2019 .NET 5
-How to avoid Console.Write after Ctrl-C during Console.ReadLine?
-How to curve listbox and its scrollbar in WPF .NET 5.0
-runtimeconfig.json still present after setting project properties
-Why Url.Content() not working in ASP.NET MVC 5?
-Implementing arithmetic in generics?
-WPF ToolTip does not update
-`dotnet build` and `dotnet restore` hangs forever without any error
-What is wrong when Transient injected to Singleton?
-The framework 'Microsoft.NETCore.App', version '5.0.0' was not found while running tests
-Error split string index and length must refer to a location
-EmguCV cvextern System.DllNotFoundException
-Visual studio item template, how to substitute part of text with project name?
-Sending requests to Java web service in WCF .NET with WS Security
-file encryption from .net C# compatible with gpg
-Azure Web App suddenly throws HTTP Error 500.31 - ANCM Failed to Find Native Dependencies in .NET 6 (preview)
-How to use lambda to apply row index in a dataframe?
-I'm a beginner in programming and I need help in pong game
-python-qgis version information
-Encrypt in tweet-nacl (javascript) and decrypt in python
-How can I split a string or domain name into words in python? [closed]
-Python, cant overide a method [duplicate]
-Is there a python implementation of multidimensional ECDFs?
-How to modify docker settings for multiple database for a django project?
-Sending enums values and saving them to db with flask + marshmallow + sqlalachemy?
-How to plot a function of two variables in R^2 but not surface in Python? [duplicate]
-What should be the format of one-hot-encoded features for scikit-learn?
-How to find the max array from both sides
-Primitive Calculator - Dynamic Approach
-Can I delete the django migration files inside migrations directory
-Drag and Drop GUI designer for Python
-I don't understand the errors in these assignments
-how to solve Django " TypeError at /auth/users/ create_user() missing 1 required positional argument: 'username' " in case of default user model?
-Pygame collisions of two images not consistent
-sorting a soccer league list
-NameError: name 'ProfileView' is not defined
-Find all combinations in a profile matrix result is the index of the matrix [closed]
-Convert date to human-readable format (tomorrow, 2 days ago) in Python [closed]
-pylint reports => test.py:32:8: W0104: Statement seems to have no effect (pointless-statement)
-Python Object Changing For No Apparent Reason [closed]
-Invoking a constructor in a 'with' statement
-Extract data of sheet and showingon web page
-Converting Raw Jupyter Notebook to JSON list using Python
-How do i roll mutiples dices in one command
-Django rest framework, returning item status booked or free based on current date/time
-importing bert fine tuning model on colab
-Navbar dropdown not working in Angular 12 bootstrap 5
-Capture keypress/keyup/keydown on any element using Angular directive
-Error in typescript function- Function lacks ending return statement and return type does not include 'undefined'
-.ts(2322) Property 'payload' is missing in type 'Action' but required in type 'AddIngredient'
-How to add a button on each row of a table in Angular Material?
-How to return specific fields from a JSON object array in angular http service as response
-Laravel/Angular - Auth::user() returns null
-Problem with Angular Http Client Exercise [closed]
-not a function error in Angular (ag-grid)
-Angular and Local Storage in strict mode
-How to use two diferent routing modules with angular
-NullInjectorError: No provider for HighContrastModeDetector
-Angular HttpInterceptor is not adding response headers
-How to test method throwing error inside the handler of observable?
-Typescript Add calculated value to class
-Pass injectable service to the parent component in Angular
-Angular & Firebase Firestore - Object is possibly 'Null' Error
-How to fill a table with data from service in Angular Material?
-Missing write access in mac to /usr/local/lib/node_modules
-GETTING ERROR POSTING FILE TO MYSQL - PHP-CRUD-API
-Multiple optional route parameters by names ( for sql search query ) by angular or ionic
-Angular Reactive Form Array is only displaying 1 item from the array
-create leaflet Markers using json service angular
-Dynamically control the number of FormGroups with a FormArray
-Get validators present in FormGroup/FormControl
-FontAwesome svg within shadow dom
-@Input('index') stays zero with ngfor loop
-Create multiple origins in one cloudfront distribution
-scroll event on Hostlistener
-Angular: property subscribe does not exist on type void [closed]
-ASP.NET C#: SqlDataSource with Stored Procedure and Parameters
-Please advise the modern architecture of ASP.NET WebApi application
-Balzor Server API Auth
-How can I show "Invalid login attempt" message inside bootstrap modal popup's login partial view without redirection to a new login page?
-Regex for password must contain at least eight characters, at least one number and both lower and uppercase letters and special characters
-Access FormView in the ItemUpdated event
-Dotnet Blazor deploy on Digital Ocean Error: Unable to retrieve the specified information about the process or thread
-Calculate total value of textboxes
-С# Deep intersection and concatenation in the List<T> in ASP.NET
-My c# code behind can't access js-code-changing
-Progress Bar asp.net
-How can I add follower in .Net
-Session Variables in IE
-if profile1 profile2 views data of profile3 then profile3 should get message that "2 profile view your data with their profile id" [closed]
-I can not use the 'services.AddControllers().AddNewtonsoftJson()'
-Rewrite url in c# web.config like we have in .htaccess
-Close browser window with specific url (opened by different browser)
-URLs ignore arguments in GET request (ASP.NET)
-How to publish Blazor WebAssembly app via file system to cPanel?
-C# windows application setup project [closed]
-C# Visual Studio 2010 - 'Could not load type' Parse error
-Web Config Transform not working
-Return html page in webmethod inside iframe multiview c#
-I want to fetch value of first iteration in foreach loop By jQuery in ASP.NET Core 5.0 MVC
-The "SourceRootPath" parameter is not supported by the "TransformXml" task
-Keyword not supported: 'port' error in ASP.NET MVC application
-Compare first letter from 2 textboxes in asp.net forms
-How to clear the Cache Tag Helper programmatically in ASP.NET 5?
-ORDER BY NEWID in LINQ and bind to Repeater control
-how to filter the combo box in asp.net
-Linking sprites to .txt file to draw a track using p5.js and p5.play
-I am attempting to update data without creating a whole different form, is there a way to do this with react & axios?
-How to modularize this react state container?
-Appending current URL parameters onto anchor link
-How to write a function in Javascript
-Performance Monitor script with chrome extension popup
-How can I "click" all div in the firefox console?
-How to generate unique random numbers
-I'm confused how the react-dnd docs show the `dragPreview` being used with the `useDrag` hook
 bulk find and replace in google docs using sheet and app script
-Javascript "Not a Constructor" Exception while creating objects
-how to change value of css variable as page scrolls gsap
-how to arrange li and remove li free space?
-member function is not able to access its member properties?
-How to only target a single item in a UI rendered list in React
-How to redirect a user based on a returned HTML form response?
-whether given two words are synonyms or not [closed]
+Calculate total value of textboxes
+Navbar dropdown not working in Angular 12 bootstrap 5
+How can I show "Invalid login attempt" message inside bootstrap modal popup's login partial view without redirection to a new login page?
 Does a *.example.com for a content security policy header also match example.com?
+How can I add follower in .Net
+Dynamically control the number of FormGroups with a FormArray
+What is wrong when Transient injected to Singleton?
+How to modularize this react state container?
 Is there a code to add + and - buttons so that a quantity for amount of payments can be established? Would appreciate any help/resources [closed]
-Git history extension infinite loading screen
-Resize a div on border drag and drop without adding extra markup
-React Scroll to top not working? New solutions needed
-Blocking vs Non-Blocking in NodeJS
-How can i calculate the total from dynamic inputs when using JS
-useReducer not accepting array or state
-Upon pressing 'SEARCH' button, does not give the result of searched value - REACTJS
+Problem with Angular Http Client Exercise [closed]
+file encryption from .net C# compatible with gpg
+Implementing arithmetic in generics?
+C# windows application setup project [closed]
+How to truncate milliseconds off of a .NET DateTime
+How to curve listbox and its scrollbar in WPF .NET 5.0
 How to use syntax highlighting for code Blocks for Bot in discord.js (v13)?
-How to set OpenSea.js provider from Onboard.js or Web3Modal.js then inject globally in Nuxt.js?
-I need help how this code work i am not understanding this code [duplicate]
+GETTING ERROR POSTING FILE TO MYSQL - PHP-CRUD-API
+How exactly does the "Specific Version" property of an assembly reference work in Visual Studio?
+Is .Net and as .Net Core the same framework but with different names?
+How to find the max array from both sides
+Resize a div on border drag and drop without adding extra markup
+Primitive Calculator - Dynamic Approach
+I don't understand the errors in these assignments
+Sending requests to Java web service in WCF .NET with WS Security
+What should be the format of one-hot-encoded features for scikit-learn?
+Python, cant overide a method [duplicate]
+NullInjectorError: No provider for HighContrastModeDetector
+Linking sprites to .txt file to draw a track using p5.js and p5.play
+ORDER BY NEWID in LINQ and bind to Repeater control
+How to only target a single item in a UI rendered list in React
+@Input('index') stays zero with ngfor loop
+Javascript "Not a Constructor" Exception while creating objects
+create leaflet Markers using json service angular
+How to clear the Cache Tag Helper programmatically in ASP.NET 5?
+Visual studio item template, how to substitute part of text with project name?
+Git history extension infinite loading screen
+Angular and Local Storage in strict mode
+python-qgis version information
+Missing write access in mac to /usr/local/lib/node_modules
+Drag and Drop GUI designer for Python
 The communication between Flask and JS doesn't go well
+How to stop visual studio from automatically adding remove in an item group in my csproj?
+How to generate unique random numbers
+How to write a function in Javascript
+How do i roll mutiples dices in one command
+I can not use the 'services.AddControllers().AddNewtonsoftJson()'
+I need help how this code work i am not understanding this code [duplicate]
+Access FormView in the ItemUpdated event
+Compare first letter from 2 textboxes in asp.net forms
+I would like to ask that some simple question about C# int and char value
+Where are settings saved wiithin the context of BricsCAD?
+Get Windows Edition
+Disposing Of An Instance from Activator.CreateInstance()
+Detect Windows version in .NET
+How to use writing N for insert query in .NET C#?
+Instantiate type with string parameter to constructor dynamically
+Multicast delegate of type Func (with return value)?
+Why does testing the user's group membership not produce the expected result?
+Class library - Winforms app - Won't build due to .Net target versions
+How do I do a GAC install of certain DLLs/assemblies?
+How to change tab name and favicon in EasyTabs?
+How to serialize duplicate XML elements into an array?
+How to read data from Azure Blob using SAS key in .net
+Multiple queues in Hangfire with different number of workers
+.net Static allocation of arrays in high frequency heap and singleton
+System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 85 (SessionNotCreated)
+Should I use two "where" clauses or "&&" in my LINQ query?
+How can I add a controller to blazor wasm to make stats of my database?
+Shopee API receiving error when using POST method
+FileNotFoundException in FileSystemWatcher
+Socks Proxy for HttpWebRequest
+VB.Net 'Sub Main' was not found
+Is there support for oasis xml catalogs in .net?
+Roslyn, getting the symbol and declaring syntax reference of generic types
+How to avoid Console.Write after Ctrl-C during Console.ReadLine?
+Creating a constant Dictionary in C#
+The SPA default page middleware could not return the default page '/index.html'
+Need a library that generates WAVE from Midi
+Enforce right method overload to be called
+How to display screen recorder inside a Tkinter frame or lable?
+Simple python input while loop for counting down to the weekday with str input
+Memory (RAM) issue when preprocessing data in keras with sequences_to_matrix
+how to Upsample and Downsample ECG signals in python or MATLAB?
+how to discriminate based on HTTP method in django urlpatterns
+I want to filter the length and breath from a given string in python
+Finding mean between two inputs from users
+Renaming all the .csv in a folder
+Getting Error while running python code second time
+Disable edit option in tkinter table
+Why is my neural network predicting -0 (PYTHON - backpropagation XOR)?
+Deformat text in discord.py
+How to read HTML email - Python
+moving diagonally makes player go faster
+Request fails to authenticate when password contains '@'
+"[1/1] Webhook status code 400: {"embeds": ["0"]}" python discord_webhook issue
+Generating spatially correlated statistical noise using autocorrelation and python
+AttributeError: h5py.h5.H5PYConfig' has no attribute '__reduce_cython__'
+make temporary database with sqlite
+How to view contents of one model to another model?
+FFmpeg return 'invalid argument' only for some runs, even though it is the same code
+Django Makemigrations fails on new autoscaling instances (shows no new changes)
+Developing a minesweeper game - number generation algorithm needs improving
+Passing Dataframes in classes and functions
+[Windows 10 / Python 3.9 / Pipenv]How to debug an error when using `pipenv install xxx` from command line
+How to draw a histogram of bins of the same width and different height in a certain interval?
+Fill a fixed-size dataframe with null values in between valid data
+How to implement lamda function to digits of an integer number [closed]
+Python program to write a function for following conditions [closed]
+Sending message confirming bot have deleted/cleared messages
+Setting value on array, it is not updating child component - Angular
+Currently learning angular. Cannot use input as an argument because it has the optional marker?
+Error after npm install Could not resolve dependency
+popular angular library for profile image gallery drag and drop
+RxJS sequential delay between emissions
+`selector` return the value on page refresh, `onInit` value shows as undefined
+ERROR TypeError: Cannot read property 'isSupported' of undefined angular serve:ssr
+How to get a list of files from FireBase Storage using AngularFire
+Sharing Ionic project for html and CSS editing
+in angular by default horizontal scroll in ngx-extended-pdf-viewer not working
+I want to reset the progress/angular-kendo-editor control in my form
+Parallel API calls using angular
+Why angular 9 validation failed for a legitimate option value, the first option?
+why the propertie Group get a null value
+Where do I put imports that would normally go in main.ts, when I am doing lazy module loading?
+String to array (object) Angular TS 12
+How I can sort my data with sort() in Angular 12? [closed]
+Multiple Http calls in one array
+Bind JSON Array to a Nested Form Group
+Exporting Leaflet map with geojson layers to png in Angular 5
+Copy data from one value object to another in typescript: Type Error: Cannot read properties of undefined (reading substring)"
+Dynamically set variable padding based on image-height css angular
+How to resolve CSS module error in angular 12
+Set the server port for sending API requests from Angular to NodeJS in development
+Spring boot running in tomcat, required request part 'file' is not present
+How to use two diferent routing modules with angular
+I would like to use a <script> in my Angular component, how do I do that?
+How to return specific fields from a JSON object array in angular http service as response
+Why Angular Change Detection re-renderes component if data didn't change?
+How to focus next input when limit reaches but if input is nested within Html li tag in angular?
+Selecting list for drop down asp.MVC
+AddApiAuthorization and backend service with one dbcontext?
+how to create a ComboBox in website c#
+API Calls return HTML instead of JSON in Docker container
+ASP.NET Core change EF connection string when user logs in
+Get the latitude and longitude of multiple addresses using Google API
+Understanding Token Generation/Validation in ASP.NET (MVC, web API)
+There is an error in app.UseMigrationsEndPoint(), if this cant be solved can guide me to remove asp.net identity files (which is used to create login)
+How to create a web-based quiz using information from an SQL database in ASP.NET Core? [closed]
+Why does my asp.net model binding not work?
+Get Output parameter from typed tableadapter
+How do I exclude static files from ASP.NET Core's authorization fallback policy
+Does a change to an ASP.NET site kill active sessions?
+Convert a Cookie object in to string format and back
+How to run ASP.NET MVC application from console? [duplicate]
+Create Method in asp.net core 3.1 [closed]
+Selected item not return value asp.net MVC
+How to Get the value of options in multiselect div
+If Request date is before 5:00 pm set cdate as same day else next day if sat sunday then next day in asp.net on request date selection by jQuery ajax [closed]
+I want to download API response( JSON file format) using JavaScript or C#
+How to make another auto incremented column with different logic in EF Core?
+Kestrel and self signed certificate. The desktop application in the intranet
+DocumentFormat.OpenXml error - the file format and extension of .xslx don't match
+How to get Request Body value using streamReader
+Attempting to return view model of SelectListItem dropdown [duplicate]
+Html Helper 'Action' is Undefined, Asp.NET Core 2.2
+Intermittend Oracle Connection request timed out From Oracle Managed Data Access c#
+HTTP Error 413.1 - Request Entity Too Large
+Add WCF via 'Add Connected Services' using VS2019
+sort order should be by date, then alphabetical (so all active at top A-Z, then all inactive at bottom A-Z)
+Firebase redirect user to a page after clicking verification link
+Indexing a JSON by index instead of key? [duplicate]
+Vue: vue-echarts not rendered
+How to load image from shared file on local server?
+javascript - find unique objects in array based on multiple properties
+Show TXT file contents inside html body: how to get the result of XMLHttpRequest in a variable I can show on HTML'body?
+How to change rel of the anchor in the page when href contains specific keywords
+How to get the next empty row in a specific column google spreadsheet using google apps script
+Appending current URL parameters onto anchor link
+How to make JS data caching?
+How to implement a dynamic form with controlled components in ReactJS?
+<input type="color"> value
+Why does 100 >> 100 and 100 >>> 100 return 6 in Javascript?
+Is there any way to find out how a website processes their backend data to frontend?
+Turning off eslint rule for a specific file
+react-native bundler weird error and images not working
+discord.js manual levelling system with quick.db
+Passing state from parent component to child function
+Why is the variable `closed` being logged as `false`, if I define it globally as `0`?
+gatsby graphql Cannot query field "allTribeEvents" on type "Query"
+Convert scala code to Python facing issues with long html java script embedded string
+How to find all no repeat combinations form specific single arrays use Javascript
+How to handle change of onClick on dropdown menu in react.js
+HTML 5 canvas grid system box color misplacement
+How to convert this excel formula to javascript?
+JavaScript not working as expected in chrome browser
+Making on-scroll style changes using vanilla js
+Cannot override CSS Module class style with more specific one
